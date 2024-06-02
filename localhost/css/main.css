@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url(../fonts/Minecraft.ttf);
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../fonts/Comfortaa.ttf);
+}
+body {
+    margin: 0;
+    background-color: #474747;
+    position: relative;
+}
+#header {
+    width: 100%;
+    background-color: #242424;
+}
+#header img {
+    float: left;
+    padding: 18px;
+}
+#header span {
+    color: #ffffff;
+    font-family: 'Minecraft';
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+    position: absolute;
+    padding: 31px 4px;
+}
+#headeract {
+    float: right;
+    padding: 37px;
+}
+#headeract span, a {
+    color: #ffffff;
+    font-family: 'Comfortaa';
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#headeractj {
+    float: right;
+    padding: 27px;
+    display: block;
+}
+#headeractj img {
+    float: right;
+    display: block;
+    height: 45px;
+    width: 45px;
+    image-rendering: pixelated;
+}
+#headeractj img:hover {
+    filter: brightness(0.5);
+}
+#headeract a:hover {
+    color: #737373;
+}
+#headerm {
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    display: block;
+}
+#headerm a {
+    color: #ffffff;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    font-weight: 400;
+}
+#headerm ul {
+    margin: 0;
+    list-style: none;
+    padding-inline-start: 0px;
+}
+#headerm li {
+    float: left;
+    padding: 10px 25px;
+}
+#headerm a:hover {
+    color: #737373;
+    font-weight: 400;
+}
+.footer {
+    width: 100%;
+    background-color: #383838;
+    border-bottom: 29px solid #2f2f2f;
+    position: relative;
+}
+.footers {
+    color: #ffffff;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    bottom: -23px;
+    right: 20px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.footerd0 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 50px 0px 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.footerd1 {
+    flex: 0 1 auto;
+    position: relative;
+    padding: 0px 40px 40px 40px;
+}
+.footerd2 ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.footerd2 ul li {
+    padding-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+.footerd2 ul li a {
+    font-size: 20px;
+    text-align: center;
+    color: #808080;
+}
+.footerd2 ul li a:hover {
+    color: #4f4f4f;
+}
+.footerd2 h2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Minecraft';
+    font-size: 20px;
+    font-weight: 400;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    height: 20px;
+    padding-bottom: 25px;
+    margin: 0;
+}
+/*Theme =======================================*/
+.theme {
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 50px;
+    z-index: 1;
+}
+.theme img{
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+    filter: brightness(0.9);
+    cursor: pointer;
+}
+.theme img:hover{
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+    filter: brightness(0.5);
+}
+/*Theme =======================================*/
+.background {
+    background: url('/img/previewl.png') fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+.registerm {
+    padding: 250px 25%;
+}
+.regformblock {
+    background-color: #1a1a1a;
+    position: relative;
+    padding: 40px;
+}
+.regformblock div {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Minecraft';
+    font-size: 40px;
+    font-weight: 400;
+    user-select: none;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.regformblock p {
+    text-align: center;
+    color: #c9c9c9;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    font-weight: 400;
+    user-select: none;
+    padding-top: 30px;
+}
+.inputform {
+    border: 0;
+    background-color: #262626;
+    width: 80%;
+    padding: 10px 10px;
+    font-family: 'Comfortaa';
+    color: #fff;
+}
+.submitform {
+    border: 0;
+    background-color: #262626;
+    width: 20%;
+    padding: 10px;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+.submitform:hover {
+    background-color: #c9c9c9;
+    color: #262626;
+}
+input {
+    outline:none;
+}
+.isreglog {
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: #fff;
+}
+.isreglog a{
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: #c9c9c9;
+    text-decoration: underline;
+}
+.isreglog a:hover { color: #828282; }
+.mainblock div{
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Minecraft';
+    font-size: 40px;
+    font-weight: 400;
+    user-select: none;
+}
+.mainblock div div{
+    text-align: left;
+    color: #ffffff;
+    font-family: 'Minecraft';
+    font-size: 25px;
+    font-weight: 400;
+    user-select: text;
+}
+.infoblock {
+    position: relative;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+    padding: 10% 10%;
+}
+.txtinfo {
+    text-align: center;
+    width: 550px;
+    margin: 0;
+    text-align: left;
+}
+.txtinfo p { font-size: 20px; }
+.txtinfo h3 { font-size: 40px; }
+.infosection {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+*::selection {
+    color: #fff;
+    background: #905eab;
+    text-shadow: none;
+}
+.error {
+    margin: 10px 0;
+    padding: 5px 0 !important;
+    width: 100%;
+    background-color: indianred;
+    color: #fff;
+    text-align: center !important;
+    font-family: 'Comfortaa' !important;
+    font-size: 15px !important;
+    user-select: none !important;
+}
+#pwin {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    display: none;
+    z-index: 2;
+}
+#pwin a {
+    display: block;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: #262626;
+}
+#pwin a:hover { color: #828282; }
+.leftmenu {
+    background-color: #262626;
+    width: 25%;
+    display: block;
+}
+.profileblock {
+    background-color: #4C4C4C;
+    height: 600px;
+    flex: 0 1 auto;
+}
+.p_head {
+    font-family: 'Minecraft';
+    font-size: 40px;
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+.p_img {
+    width: 200px;
+    height: 200px;
+    padding: 70px;
+    image-rendering: pixelated;
+}
+.p_nick {
+    font-family: 'Comfortaa';
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+}
+.p_name {
+    font-family: 'Comfortaa';
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-top: 20px
+}
+.p_ul {
+    display: inline;
+    padding-inline-start: 0px;
+    user-select: none;
+}
+.p_ul li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    user-select: none;
+}
+.p_ul li a {
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.p_ul li a:hover {
+    color: #828282;
+}
+#pbut { border-radius: 50%; }
+.pmhead {
+    font-family: 'Comfortaa';
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+#psmain div {
+    font-family: 'Comfortaa';
+    font-size: 17px;
+    padding-top: 10px;
+}
+.profileff {
+    padding: 150px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.p_money { float: left; padding-right: 50px;}
+.p_money img {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+    display: block;
+    float: left;
+}
+.p_money div {
+    font-family: 'Minecraft' !important;
+    font-size: 32px;
+    text-align: left;
+    padding-bottom: 10px;
+    float: left;
+}
